@@ -27,7 +27,7 @@ const DisplayWidget = ({ widget, onDelete, onEdit }: DisplayWidgetProps): JSX.El
                 {name}
               </Typography>
               <Typography component="div" gutterBottom variant="h5">
-                ${price}
+              ${price.toFixed(2)}
               </Typography>
               <Typography color="text.secondary" variant="body2">
                 {description}
